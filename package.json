@@ -1,0 +1,27 @@
+{
+  "name": "api-endpoint",
+  "version": "1.0.0",
+  "description": "API endpoint",
+  "main": "app.js",
+  "scripts": {
+      "start": "node app.js",
+      "server": "nodemon app.js"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ezeah/api-endpoint.git"
+  },
+  "author": "nnamdi ezeah",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/ezeah/api-endpoint/issues"
+  },
+  "homepage": "https://github.com/ezeah/api-endpoint#readme",
+  "dependencies": {
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2"
+  },
+  "devDependencies": {
+      "nodemon": "^3.0.1"
+  }
+}
