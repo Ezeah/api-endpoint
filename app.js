@@ -23,7 +23,7 @@ app.get('/api', (req, res) => {
     utc_time: utcTime,
     track: track,
     github_file_url: 'https://github.com/Ezeah/api-endpoint/blob/main/app.js',
-    github_repo_url: 'https://github.com/Ezeah/api-endpoint',
+    github_repo_url: 'https://github.com/Ezeah/api-endpoint/tree/main',
     status_code: 200
   };
 
