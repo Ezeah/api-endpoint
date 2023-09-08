@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 // Define the endpoint
 app.get('/api', (req, res) => {
   // Parse query parameters
-  const slackName = req.query.slackName;
+  const slack_name = req.query.slack_name;
   const track = req.query.track;
 
   // Get the current UTC time
@@ -18,7 +18,7 @@ app.get('/api', (req, res) => {
 
   // Construct the JSON response
   const jsonResponse = {
-    slack_name: slackName,
+    slack_name: slack_name,
     current_day: currentDay,
     utc_time: utcTime,
     track: track,
